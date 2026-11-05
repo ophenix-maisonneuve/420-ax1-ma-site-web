@@ -7,4 +7,4 @@ has_toc: true
 published: true
 ---
 
-{% include /shared/notes/cryptographie/principes-cryptographie.md %}
+{% include_relative /shared/notes/cryptographie/principes-cryptographie.md %}
