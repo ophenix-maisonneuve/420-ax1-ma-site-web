@@ -2,7 +2,7 @@
 layout: default
 title: "Travail pratique 1"
 nav_order: 1
-published: true
+published: false
 ---
 
 # Travail pratique 1 : Des soucis chez Oups Technologies!
@@ -36,7 +36,7 @@ Votre rôle : **reproduire l’incident**, comprendre **pourquoi** il s’est pr
 
 ## Préparation
 
-### Télécharger la VM simulant le serveur web de Oups Technologies [ici]()
+### 1. Télécharger la VM simulant le serveur web de Oups Technologies [ici]()
 
 La VM peut être téléchargée [ici](#)
 
@@ -45,7 +45,7 @@ Pour vous connecter sur la VM du TP 1 (soit directement sur le terminal ou avec 
 - Mot de passe : 0upsT3ch! <- *Le 1er caractère est un **zéro***
 
 
-### Simuler la résolution DNS
+### 2. Simuler la résolution DNS
 
 Pour simuler une résolution DNS pour l'adresse `portail.oups.tech.test` il suffit d'y associer l'adresse IP de la machine virtuelle du TP 1. Pour ce faire, voici les étapes à effectuer :
 
@@ -88,7 +88,7 @@ Sous Windows, le fichier *hosts* se trouve dans `C:\Windows\System32\drivers\etc
 
 4. Enregistrer.
 
-### Faire confiance à l'autorité de certification du cours
+### 3. Faire confiance à l'autorité de certification du cours
 
 Pour simuler que notre CA du cours est une véritable autorité de certification reconnue, il suffit d'ajouter le CA du cours dans la banque de certificats de confiance de votre navigateur. La procédure est expliquée ci-dessous pour Chrome et Firefox, mais il est généralement possible de le faire avec tous les navigateurs avec une démarche similaire.
 
