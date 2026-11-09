@@ -4,7 +4,7 @@ title: Certificats
 nav_order: 2
 has_children: true
 has_toc: true
-published: true
+published: false
 ---
 
 {% include shared/notes/certificats/certificats.md %}
