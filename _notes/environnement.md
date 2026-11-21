@@ -2,33 +2,19 @@
 layout: default
 title: Environnement de travail
 nav_order: 1
-has_children: true
-has_toc: true
 published: false
 ---
 
 # Environnements de travail
 
-## VM Linux (Debian 12)
-Préinstallés :
+Pour les travaux en classe, trois machines virtuelles compatibles avec VMware Workstation et Virtualbox seront utilisées:
 
-- openssh-server
-- nginx
-- openssl
-- nmap
-- tcpdump
-- curl
-- wget
-- vim
-- nano
-- sudo
+- [Environnement principal](./environnement/principal): Un environnement de travail Debian 13 qui sera utilisé pour presque tous les cours
+- [Environnement vulnérable](./environnement/vulnerable): Une machine virtuelle simulant un environnement vulnérable qui sera utilisée aux séances 5 et 6 (analyse de vulnérabilités)
+- [Pare-feu pfSense](./environnement/pfsense): Une machine virtuelle pfSense qui sera utilisée aux séances 8 à 10 (pare-feu)
 
-Éventuellement :
 
-- fail2ban
-- rsync
 
-pour certains exercices.
 
 ## VM pfSense
 

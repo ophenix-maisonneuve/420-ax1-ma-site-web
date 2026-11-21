@@ -19,7 +19,7 @@ Afin de mieux comprendre les objectifs de la sécurité informatique, on utilise
 - **Intégrité**
 - **Disponibilité**
 
-Ces trois propriétés constituent les fondements de la majorité des mécanismes de sécurité utilisés aujourd’hui.
+La grande majorité des mécanismes de sécurité que nous mettons en place dans les environnements professionnels visent à protéger ces trois propriétés.
 
 ## Confidentialité
 
@@ -27,25 +27,24 @@ La confidentialité vise à empêcher les personnes non autorisées d'accéder �
 
 Exemples :
 
-- Chiffrement des communications HTTPS
+- Chiffrement des communications avec HTTPS
 - Chiffrement d'un disque dur
-- Contrôle des permissions sous Linux
-- Authentification multifacteur
+- Contrôle des permissions de lecture sous Linux
 
 ## Intégrité
 
-L'intégrité vise à assurer que les données n'ont pas été modifiées de façon non autorisée.
+L'intégrité garantit que les données n'ont pas été modifiées de façon non autorisée.
 
 Exemples :
 
-- Condensés cryptographiques (hash)
+- Condensés cryptographiques (*hash*)
 - Signatures numériques
 - Contrôle de version
 - Journaux d'audit
 
 ## Disponibilité
 
-La disponibilité vise à assurer que les ressources demeurent accessibles lorsqu'elles sont nécessaires.
+La disponibilité permet d'assurer que les ressources sont accessibles lorsqu'elles sont requises.
 
 Exemples :
 
@@ -56,8 +55,8 @@ Exemples :
 
 
 {: .highlight-title}
-> Et l'authenticitié dans tout cela ?
+> Et l'authentification dans tout cela ?
 >
-> Une quatrième propriété joue aujourd'hui un rôle extrêmement important en sécurité informatique : l'**authenticité**. Cette propriété vise à confirmer qu'un utilisateur ou un système ou l'émetteur d'une information est bien celui qu'il prétend être. Historiquement, l'authenticité était souvent considérée comme un mécanisme contribuant à la confidentialité, à l'intégrité, ou aux deux à la fois, et elle n'a donc pas été incluse formellement dans le modèle CID. Avec l'évolution des réseaux et l'apparition de nouveaux protocoles de sécurité, son importance est toutefois devenue de plus en plus évidente.
+> Une quatrième propriété joue aujourd'hui un rôle extrêmement important en sécurité informatique : l'**authentification**. Cette propriété vise à confirmer qu'un utilisateur, un système ou l'émetteur d'une information est bien celui qu'il prétend être. Historiquement, l'authentification était souvent considérée comme un mécanisme contribuant à la confidentialité, à l'intégrité, ou aux deux à la fois, et elle n'a donc pas été incluse formellement dans le modèle CID. Avec l'évolution des réseaux et l'apparition de nouveaux protocoles de sécurité, son importance est toutefois devenue de plus en plus évidente.
 >
-> Des technologies telles que SSH, TLS et les certificats X.509 reposent fortement sur l'authenticité afin de permettre aux utilisateurs et aux systèmes de vérifier avec qui ils communiquent avant d'échanger de l'information.
+> Des technologies telles que SSH, TLS et les certificats X.509 reposent fortement sur l'authentification afin de permettre aux utilisateurs et aux systèmes de vérifier avec qui ils communiquent avant d'échanger de l'information.

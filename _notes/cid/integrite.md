@@ -14,9 +14,11 @@ L'intégrité consiste à assurer que les données demeurent exactes, complètes
 
 Dans plusieurs contextes, l'intégrité est aussi importante que la confidentialité. Par exemple, dans un système bancaire, le fait qu'un attaquant puisse modifier un montant de transaction représente un risque tout aussi important que la divulgation de cette transaction. De la même façon, dans un établissement d'enseignement, une modification non autorisée des notes des étudiants pourrait avoir des conséquences importantes même si aucune information n'a été divulguée.
 
-L'intégrité ne concerne pas uniquement les attaques malveillantes. Les erreurs humaines, les bogues logiciels et certaines défaillances matérielles peuvent également altérer les données et compromettre leur exactitude.
+Les attaques malveillanes ne sont pas les caules causes d'un bris d'intégrité. Les erreurs humaines, les bogues logiciels et certaines défaillances matérielles peuvent également altérer les données et compromettre leur exactitude.
 
-## Exemples de failles d'intégrité
+## Bris d'intégrité
+
+Il existe plusieurs exemples de situations où l'intégrité des données peut être compromise, par exemple :
 
 ### Modification non autorisée de données
 
@@ -26,15 +28,17 @@ Un utilisateur possédant des privilèges excessifs pourrait modifier ou supprim
 
 Un virus ou un rançongiciel peut modifier des fichiers, corrompre des bases de données ou remplacer des documents légitimes par des versions altérées.
 
-### Attaque de l'homme du milieu
+### Attaque de la personne du milieu (*man-in-the-middle, MITM*)
 
-Lorsqu'un attaquant est capable d'intercepter une communication, il peut tenter de modifier certaines données avant qu'elles n'atteignent leur destination. Sans mécanisme de validation, les deux parties pourraient croire que les informations sont légitimes.
+Pour réaliser une attaque *MITM*, un attaquant se place "entre" deux interlocuteurs et intercepte les communications. Il/elle peut alors tenter de modifier certaines données avant qu'elles n'atteignent leur destination sans que le destinataire n'ait eu connaissance de la modification. Sans mécanisme de validation, les deux parties pourraient croire que les informations sont légitimes.
 
 ## Mécanismes de protection
 
-### Condensés cryptographiques
+Les techniques et protocoles modernes offrent heureusement plusieurs mécanismes qui protègent l'intégrité des données, notamment :
 
-Les fonctions de hachage permettent de produire une empreinte numérique unique représentant les données d'origine. Une simple modification du contenu entraîne un changement du condensé, ce qui permet de détecter rapidement une altération.
+### Condensés cryptographiques (*hash*)
+
+Les fonctions de hachage permettent de produire une empreinte numérique unique représentant les données d'origine. Une simple modification du contenu entraîne un changement radical du condensé, ce qui permet de détecter rapidement une altération.
 
 ### Signatures numériques
 
