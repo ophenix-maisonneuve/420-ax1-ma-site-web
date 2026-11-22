@@ -7,7 +7,7 @@ published: true
 
 # Exercice: La gencive zen
 
-![La gencive zen](assets/images/gencivezen.png)
+![La gencive zen](../assets/images/gencivezen.png)
 
 ## Mise en situation
 
