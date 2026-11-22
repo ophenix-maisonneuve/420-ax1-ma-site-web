@@ -18,8 +18,7 @@ published: true
    * Enregistrement des séances
 1. Outils utilisés
    * [Omnivox / Léa](https://cmaisonneuve-lea.omnivox.ca/)
-   * [Notes de cours](https://ophenix-maisonneuve.github.io/420-950-ma-site-web/)
-   * [GitHub](https://github.com/ophenix-420-950-ma-24636)
+   * [Notes de cours](https://ophenix-maisonneuve.github.io/420-ax1-ma-site-web/)
 1. Exploration des [environnements de travail](../notes/environnement)
    * [Environnement principal](../notes/environnement/principal) pour le développement et la sécurité passive ou défensive
    * Autres environnements
