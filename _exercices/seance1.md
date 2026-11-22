@@ -11,11 +11,11 @@ published: true
 
 ## Mise en situation
 
-Le dentiste propriétaire de la clinique dentaire **La gencive zen** a récemment assisté à une conférence intitulée ***Vous protégez plus que les dents de vos clients***. Cette conférence portait sur les impacts potentiels d'une cyberattaque ou d'une fuite ciblant les données des patients. Conscient que le réseau de sa clinique dentaire a été mis en place de façon "organique", sans réelle phase de conception ni analyse de sécurité, il est maintenant inquiet quant à la protection des données de ses patients. 
+La dentiste propriétaire de la clinique dentaire **La gencive zen** a récemment assisté à une conférence intitulée ***Vous protégez plus que les dents de vos patients***. Cette conférence portait sur les impacts potentiels d'une cyberattaque ou d'une fuite ciblant les données des patients. Consciente que le réseau de sa clinique dentaire a été mis en place de façon "organique", sans réelle phase de conception ni analyse de sécurité, elle est maintenant inquiète quant à la protection des données de ses patients. 
 
-Il y a plusieurs semaines, il avait embauché un stagiaire provenant du programme d'AEC en gestion de réseau et sécurité au Collège de Maisonneuve (c'est-à-dire vous!), et votre stage commence justement aujourd'hui! Quelle coïncidence, on pourrait presque croire que c'est arrangé!
+Il y a plusieurs semaines, elle avait embauché un(e) stagiaire du programme d'AEC en gestion de réseau et sécurité au Collège de Maisonneuve (c'est-à-dire vous!), et votre stage commence justement aujourd'hui! Quelle coïncidence, on pourrait presque croire que c'est arrangé!
 
-Le conférencier avait présenté la triade CID (confidentialité, intégrité, disponibilité) ainsi que divers scénarios hypothétiques afin que les participants réalisent qu'il n'est pas toujours évident de protéger les données correctement. Par contre, votre patron a oublié de prendre des notes et il a oublié à quelle(s) catégorie(s) appartenait chaque scénario ainsi que les mesures de mitigation qui avaient été présentées. Il vous demande donc d'analyser les divers scénarios, de les catégoriser correctement ainsi que de proposer des mesures de mitigation applicables.
+Le conférencier avait présenté la triade CID (confidentialité, intégrité, disponibilité) ainsi que divers scénarios hypothétiques afin que les participants réalisent qu'il n'est pas toujours évident de protéger les données correctement. Par contre, votre nouvelle patronne a oublié de prendre des notes et elle a oublié à quelle(s) catégorie(s) appartenait chaque scénario ainsi que les mesures de mitigation qui avaient été présentées. Elle vous demande donc d'analyser les divers scénarios, de les catégoriser correctement ainsi que de proposer des mesures de mitigation applicables.
 
 ---
 
