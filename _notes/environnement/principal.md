@@ -21,3 +21,11 @@ L'environnement principal du cours tourne sur Debian 13 (Trixie) avec les compos
 - **nano**: éditeur de texte
 - **rsync**: outil de synchronisation de fichiers souvent utilisé pour les sauvegardes et restauration
 - **fail2ban**: complémentaire au cours; outil permettant de modifier le pare-feu dynamiquement
+
+## Détails
+
+- Télécharger la VM [ici](https://cmaisonneuveqcca.sharepoint.com/:u:/r/sites/A26-420AX1MA-26601/Documents%20partages/General/420-AX1-MA-env-principal.ova?d=w01be6988773446a5b8b02c04dc6dacd7&csf=1&web=1&e=WHT0C5)
+
+- Utilisateurs
+  - root: mot de passe *root*
+  - tux: mot de passe *tux*
