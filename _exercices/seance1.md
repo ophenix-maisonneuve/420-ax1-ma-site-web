@@ -45,5 +45,5 @@ Le conférencier avait présenté la triade CID (confidentialité, intégrité, 
 Pour chaque scénario ci-haut...
 
 1. Analysez le scénario afin de bien comprendre ses implications
-1. Associez le scénario à l'une (ou plusieurs) des composanted CID + Authentification
+1. Associez le scénario à l'une (ou plusieurs) des composantes CID + Authentification
 1. Pour chaque scénario, tentez de penser à une mesure de protection couramment utilisée
