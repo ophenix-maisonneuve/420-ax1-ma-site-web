@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Environnement principal
+parent: Environnements de travail
 nav_order: 1
 published: true
 ---

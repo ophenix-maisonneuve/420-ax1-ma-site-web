@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Environnement de travail
+title: Environnements de travail
 nav_order: 1
 published: true
 ---
