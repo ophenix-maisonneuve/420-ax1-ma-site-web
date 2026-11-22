@@ -3,9 +3,7 @@ layout: default
 title: Disponibilité
 parent: Triade CID
 nav_order: 3
-has_children: false
-has_toc: true
-published: false
+published: true
 ---
 
 # Disponibilité

@@ -2,7 +2,7 @@
 layout: default
 title: Exercice CID
 nav_order: 1
-published: false
+published: true
 ---
 
 # Exercice: La gencive zen

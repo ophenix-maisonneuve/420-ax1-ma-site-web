@@ -10,7 +10,7 @@ published: false
 ## Mise en situation
 Vous débutez un stage chez **Oups Technologies**, une petite entreprise de développement logiciel reconnue pour son slogan :
 
-> *Développer vite. Casser souvent.*
+> *Innover vite. Casser souvent.*
 
 Le portail de l’entreprise, accessible à l’adresse...
 

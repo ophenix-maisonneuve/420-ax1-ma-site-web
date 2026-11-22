@@ -2,7 +2,7 @@
 layout: default
 title: Environnement principal
 nav_order: 1
-published: false
+published: true
 ---
 
 # Environnement principal
