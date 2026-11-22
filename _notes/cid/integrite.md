@@ -12,7 +12,7 @@ L'intégrité consiste à assurer que les données demeurent exactes, complètes
 
 Dans plusieurs contextes, l'intégrité est aussi importante que la confidentialité. Par exemple, dans un système bancaire, le fait qu'un attaquant puisse modifier un montant de transaction représente un risque tout aussi important que la divulgation de cette transaction. De la même façon, dans un établissement d'enseignement, une modification non autorisée des notes des étudiants pourrait avoir des conséquences importantes même si aucune information n'a été divulguée.
 
-Les attaques malveillanes ne sont pas les caules causes d'un bris d'intégrité. Les erreurs humaines, les bogues logiciels et certaines défaillances matérielles peuvent également altérer les données et compromettre leur exactitude.
+Les attaques malveillanes ne sont pas les seules causes d'un bris d'intégrité. Les erreurs humaines, les bogues logiciels et certaines défaillances matérielles peuvent également modifier les données et compromettre leur exactitude.
 
 ## Bris d'intégrité
 
@@ -20,11 +20,11 @@ Il existe plusieurs exemples de situations où l'intégrité des données peut �
 
 ### Modification non autorisée de données
 
-Un utilisateur possédant des privilèges excessifs pourrait modifier ou supprimer des informations qui ne devraient pas être accessibles. Cette situation est particulièrement préoccupante lorsqu'il s'agit de dossiers financiers, médicaux ou administratifs.
+Un utilisateur possédant des privilèges trop élevés pourrait modifier ou supprimer des informations qui ne devraient pas être accessibles. Cette situation est particulièrement préoccupante lorsqu'il s'agit de dossiers financiers, médicaux ou administratifs.
 
 ### Logiciel malveillant
 
-Un virus ou un rançongiciel peut modifier des fichiers, corrompre des bases de données ou remplacer des documents légitimes par des versions altérées.
+Un virus ou un rançongiciel (*ransomware*) peut modifier des fichiers, corrompre des bases de données ou remplacer des documents légitimes par des versions altérées.
 
 ### Attaque de la personne du milieu (*man-in-the-middle, MITM*)
 

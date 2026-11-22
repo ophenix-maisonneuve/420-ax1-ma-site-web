@@ -12,7 +12,7 @@ La sécurité informatique regroupe l’ensemble des mécanismes, procédures et
 
 Dans un environnement informatique moderne, les données circulent constamment entre les utilisateurs, les serveurs, les applications et les équipements réseau. Qu’il s’agisse d’un service bancaire en ligne, d’une boutique électronique ou du réseau interne d’une entreprise, la sécurité vise à protéger ces données afin qu’elles demeurent accessibles uniquement aux bonnes personnes, qu’elles restent exactes et qu’elles soient disponibles au moment où l'on en a besoin.
 
-Afin de mieux comprendre les objectifs de la sécurité informatique, on utilise généralement la **triade CID** (ou **CIA** en anglais) :
+Afin de mieux comprendre les objectifs de la sécurité informatique, on utilise généralement la **triade CID** (ou ***CIA*** en anglais) :
 
 - **Confidentialité**
 - **Intégrité**
@@ -28,7 +28,7 @@ Exemples :
 
 - Chiffrement des communications avec HTTPS
 - Chiffrement d'un disque dur
-- Contrôle des permissions de lecture sous Linux
+- Contrôle des permissions de lecture dans le système d'exploitation (Windows, Linux, MacOS)
 
 ## Intégrité
 

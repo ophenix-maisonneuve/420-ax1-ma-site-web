@@ -8,9 +8,9 @@ published: true
 
 # Disponibilité
 
-La disponibilité consiste à assurer que les données, les applications et les services demeurent accessibles lorsqu'ils sont nécessaires. Un système peut offrir une excellente confidentialité et une excellente intégrité, mais demeurer inutilisable si les utilisateurs ne sont pas en mesure d'y accéder au moment opportun.
+La disponibilité consiste à assurer que les données, les applications et les services demeurent accessibles lorsque requis. Un système peut offrir une excellente confidentialité et une excellente intégrité, mais demeurer inutilisable si les utilisateurs ne sont pas en mesure d'y accéder au moment opportun.
 
-Dans plusieurs organisations, la disponibilité représente un enjeu majeur. Une interruption de quelques minutes peut empêcher les opérations normales, tandis qu'une panne prolongée peut entraîner des pertes financières importantes. Les environnements bancaires, hospitaliers, industriels ou gouvernementaux doivent souvent maintenir des niveaux de disponibilité extrêmement élevés.
+Dans plusieurs organisations, la disponibilité représente un enjeu majeur. Une interruption de quelques minutes peut empêcher les opérations normales, tandis qu'une panne prolongée peut entraîner des pertes financières importantes, par exemple en empêchant des ventes de se réaliser. Les environnements bancaires, hospitaliers, industriels ou gouvernementaux doivent souvent maintenir des niveaux de disponibilité extrêmement élevés.
 
 Les menaces à la disponibilité sont nombreuses et ne proviennent pas uniquement d'attaques informatiques. Les erreurs humaines, les pannes matérielles, les catastrophes naturelles ou les interruptions de courant peuvent avoir le même effet qu'une attaque malveillante : rendre un service inaccessible.
 
@@ -24,7 +24,7 @@ Les disques durs, les alimentations électriques et les équipements réseau pos
 
 ### Déni de service
 
-Une attaque par déni de service (ou *denial of service, DoS* en anglais) vise à empêcher les utilisateurs légitimes d'utiliser un service. Dans une attaque distribuée (*DDoS*), plusieurs machines compromises sont utilisées simultanément afin de saturer les ressources visées. Dans les deux cas, la technique reste la même : un pirage trouve une manière d'empêcher un service de répondre (surcharge, *crash* répétitif, etc) et exploite cette faille en continu.
+Une attaque par déni de service (ou *denial of service, DoS* en anglais) vise à empêcher les utilisateurs légitimes d'utiliser un service. Dans une attaque distribuée (*DDoS*), plusieurs machines compromises sont utilisées simultanément afin de saturer les ressources visées. Dans les deux cas, la technique reste la même : un pirate trouve une manière d'empêcher un service de répondre (surcharge, *crash* répétitif, etc) et exploite cette faille en continu.
 
 ### Erreur humaine
 
@@ -44,7 +44,7 @@ Les sauvegardes (*backups*) permettent de récupérer les données après un inc
 
 ### Redondance
 
-La redondance consiste à éliminer les points de défaillance uniques. Plusieurs serveurs, plusieurs liens réseau ou plusieurs alimentations électriques peuvent ainsi assurer la continuité des opérations malgré une panne.
+La redondance consiste à éliminer les points de défaillance uniques (ou *single point of failure* en anglais). Plusieurs serveurs, plusieurs liens réseau ou plusieurs alimentations électriques peuvent ainsi assurer la continuité des opérations malgré une panne.
 
 ### Mode "haute disponibilité"
 

@@ -38,7 +38,7 @@ Il existe heureusement plusieurs mécanismes et protocoles permettant de protég
 
 ### Contrôle d'accès
 
-Le contrôle d'accès consiste à limiter les ressources auxquelles un utilisateur peut accéder. Sous Linux, par exemple, les permissions et les groupes permettent de déterminer quels utilisateurs peuvent lire, modifier ou exécuter un fichier.
+Le contrôle d'accès consiste à limiter les ressources auxquelles un utilisateur peut accéder. Sous Linux, par exemple, les permissions et les groupes permettent de déterminer quels utilisateurs peuvent lire, modifier ou exécuter un fichier. Windows et MacOS ont également des mécanismes similaires.
 
 ### Authentification et autorisation 
 
@@ -46,6 +46,6 @@ Avant d'accorder l'accès à une ressource, il est nécessaire de confirmer l'id
 
 ### Chiffrement
 
-Le chiffrement constitue l'un des mécanismes les plus importants pour assurer la confidentialité. Même si un attaquant parvient à intercepter les données ou à obtenir une copie des fichiers, celles-ci demeureront inutilisables sans la clé de déchiffrement appropriée.
+Le chiffrement constitue l'un des mécanismes les plus importants pour assurer la confidentialité. Même si un attaquant parvient à intercepter les données ou à obtenir une copie des fichiers, celles-ci demeureront inutilisables sans la clé de déchiffrement correspondante.
 
 Plusieurs protocoles comme HTTPS, TLS, SSH et les VPN reposent largement sur ce principe afin de protéger les communications contre l'écoute et l'interception.
