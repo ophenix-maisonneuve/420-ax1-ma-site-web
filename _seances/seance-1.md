@@ -25,7 +25,7 @@ published: true
 1. [Triade CID](../notes/triade-cid)
    * [Confidentialité](../notes/confidentialite)
    * [Intégrité](../notes/integrite)
-   * [Disponibilité](../notes/confidentialite)
+   * [Disponibilité](../notes/disponibilite)
    * ... et authentification! 
 
 
