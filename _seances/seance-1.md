@@ -27,7 +27,7 @@ published: true
    * [Intégrité](../notes/integrite)
    * [Disponibilité](../notes/disponibilite)
    * ... et authentification! 
-1. [Exercice - Triade CID](../_exercices/seance1.md)
+1. [Exercice - Triade CID](../exercices/seance1.md)
 
 
 ### Lectures recommandées
