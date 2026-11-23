@@ -20,7 +20,7 @@ published: true
    * [Omnivox / Léa](https://cmaisonneuve-lea.omnivox.ca/)
    * [Notes de cours](https://ophenix-maisonneuve.github.io/420-ax1-ma-site-web/)
 1. Exploration des [environnements de travail](../notes/environnement)
-   * [Environnement principal](../notes/environnement/principal) pour le développement et la sécurité passive ou défensive
+   * [Environnement principal](../notes/environnement/principal) : environnement utilisé à tous les cours
    * Autres environnements
 1. [Triade CID](../notes/triade-cid)
    * [Confidentialité](../notes/confidentialite)
