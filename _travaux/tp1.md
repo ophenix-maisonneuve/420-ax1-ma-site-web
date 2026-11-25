@@ -141,7 +141,10 @@ Pour simuler que notre CA du cours est une véritable autorité de certification
 1. Connectez-vous au portail de réservation :
    - [https://portail.oups.tech.test](https://portail.oups.tech.test)
    - Utilisez le compte `admin / Oups123!` pour vous connecter
-   {: .astuce}
+   
+   {: .astuce-title}
+   > Indice
+   >
    > Cette adresse est-elle la seule qui permet d'afficher le site du portail ?
 
 2. À l’aide de **Wireshark** ou **tcpdump**, effectuez une capture qui prouve qu'il est possible de récupérer les identifiants (nom d'utilisateur et mote de passe) en clair.
