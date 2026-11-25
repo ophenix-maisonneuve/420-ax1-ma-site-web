@@ -36,7 +36,7 @@ Votre rôle : **reproduire l’incident**, comprendre **pourquoi** il s’est pr
 
 ## Préparation
 
-### 1. Télécharger la VM simulant le serveur web de Oups Technologies [ici]()
+### 1. Télécharger la VM simulant le serveur web de Oups Technologies
 
 La VM peut être téléchargée [ici](https://cmaisonneuveqcca.sharepoint.com/:u:/r/sites/A26-420AX1MA-26601/Documents%20partages/General/420-AX1-MA-TP1.ova?d=w0131aed8c8c048789e44917e9506c242&csf=1&web=1&e=qoZd4P)
 
