@@ -90,7 +90,7 @@ Sous Windows, le fichier *hosts* se trouve dans `C:\Windows\System32\drivers\etc
 
 ### 3. Faire confiance à l'autorité de certification du cours
 
-Pour simuler que notre CA du cours est une véritable autorité de certification reconnue, il suffit d'ajouter le CA du cours dans la banque de certificats de confiance de votre navigateur. La procédure est expliquée ci-dessous pour Chrome et Firefox, mais il est généralement possible de le faire avec tous les navigateurs avec une démarche similaire.
+Pour simuler que notre CA du cours est une véritable autorité de certification reconnue, il suffit d'ajouter le CA du cours (disponible sur Lea) dans la banque de certificats de confiance de votre navigateur. La procédure est expliquée ci-dessous pour Chrome et Firefox, mais il est généralement possible de le faire avec tous les navigateurs avec une démarche similaire.
 
 **Chrome/Chromium**
 
@@ -136,7 +136,7 @@ Pour simuler que notre CA du cours est une véritable autorité de certification
 ## Tâches à réaliser
 
 ### 1. Reproduction de l’incident
-À partir de votre environnement applicatif, effectuez les opérations suivantes
+À partir de votre ordinateur, effectuez les opérations suivantes
 
 1. Connectez-vous au portail de réservation :
    - [https://portail.oups.tech.test](https://portail.oups.tech.test)
@@ -175,6 +175,8 @@ Pour simuler que notre CA du cours est une véritable autorité de certification
    - Le certificat de l'autorité de certification de Oups Technologies est disponible [ici](../assets/files/tp1/oups_ca.crt)
    - La clé privée de l'autorité de certification de Oups Technologies est disponible [ici](../assets/files/tp1/oups_ca.key)
 4. Créez une chaîne de certificats en concaténant le certificat signé avec le certificat de l'autorité de certification.
+   - Il s'agit simplement de copier le contenu des deux certificats dans un seul fichier
+   - Sous Linux, le format de la commande à utiliser est `cat <certificat 1> <certificat 2> > chaine.crt`
 5. **Questions**
    1. Quelle commande avez-vous utilisée pour **générer la clé privée** ?
    1. Quelle commande avez-vous utilisée pour produire la **requête de signature (*CSR*)** ?
@@ -183,7 +185,7 @@ Pour simuler que notre CA du cours est une véritable autorité de certification
 ---
 
 ### 4. Configuration sécurisée du portail (NGINX)
-1. Copiez la **chaîne de certificats** et la **clé privée du serveur** sur le serveur web
+1. Copiez la **chaîne de certificats** et la **clé privée du serveur** sur le serveur web à l'aide de SCP ou de SFTP
 2. Corrigez la configuration du site web (`/etc/nginx/sites-available/portail.oups.tech.test.conf`) en vous assurant que...
    - Le serveur utilise votre **nouveau certificat**
    - Il est désormais **impossible de se connecter en clair (HTTP)** au portail de réservation
