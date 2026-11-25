@@ -8,7 +8,7 @@ published: true
 # Travail pratique 1 : Des soucis chez Oups Technologies!
 
 ## Mise en situation
-Vous débutez un stage chez **Oups Technologies**, une petite entreprise de développement logiciel reconnue pour son slogan :
+Vous débutez un stage chez **Oups Technologies**, une petite entreprise de solutions logicielles reconnue pour son slogan :
 
 > *Innover vite. Casser souvent.*
 
