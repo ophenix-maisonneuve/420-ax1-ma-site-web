@@ -237,4 +237,5 @@ Pour simuler que notre CA du cours est une véritable autorité de certification
 ## Liens utiles
 [Télécharger la VM du TP](https://cmaisonneuveqcca.sharepoint.com/:u:/r/sites/A26-420AX1MA-26601/Documents%20partages/General/420-AX1-MA-TP1.ova?d=w0131aed8c8c048789e44917e9506c242&csf=1&web=1&e=qoZd4P)
 
-À vous de jouer !
+
+**À vous de jouer !**
