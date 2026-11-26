@@ -9,14 +9,12 @@ nav_order: 1
 
 Plusieurs technologies modernes utilisent une paire de clés appelée **clés asymétriques** :
 
-- une **clé publique**
-- une **clé privée**
+- une **clé publique** pouvant être distribuée librement à quiconque.
+- une **clé privée** devant absolument demeurer secrète en tout temps.
 
-La clé publique peut être distribuée librement à quiconque souhaite communiquer avec son propriétaire. À l'inverse, la clé privée doit demeurer secrète en tout temps.
+Ces deux clés sont liées mathématiquement de façon à ce qu'une opération effectuée avec l'une des clés peut être renversée avec l'autre clé. Par exemple, le chiffrement avec la clé publique peut être déchiffré avec la clé privée correspondante.
 
-Ces deux clés sont liées mathématiquement et permettent de réaliser certaines opérations impossibles avec les systèmes de chiffrement traditionnels utilisant une seule clé.
-
-Les clés asymétriques sont utilisées dans de nombreuses technologies modernes :
+Les clés asymétriques permettent de réaliser certaines opérations impossibles avec les systèmes de chiffrement traditionnels utilisant une seule clé et sont utilisées dans de nombreuses technologies modernes :
 
 - SSH
 - HTTPS
@@ -24,6 +22,4 @@ Les clés asymétriques sont utilisées dans de nombreuses technologies modernes
 - Certificats X.509
 - Signatures numériques
 
-Dans le contexte de SSH, elles servent principalement à authentifier un utilisateur ou un serveur.
-
-Nous reviendrons plus en détail sur leur fonctionnement dans la section consacrée à la cryptographie.
+Dans le contexte de SSH, elles servent principalement à authentifier un utilisateur ou un serveur. Nous reviendrons plus en détail sur leur fonctionnement dans la section consacrée à la cryptographie.
