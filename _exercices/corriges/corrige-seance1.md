@@ -3,7 +3,7 @@ layout: default
 title: Exercice CID - Corrigé
 parent: Exercice CID
 nav_order: 1
-published: false
+published: true
 ---
 
 # Exercice: La gencive zen
@@ -12,10 +12,10 @@ published: false
 
 ### Scénarios
 
-| Scénario | CID | Protection possible | Sujet introduit |
+| Scénario | CID + Auth | Protection possible
 |-----------|-----|-----|-----|
-| Un administrateur utilise Telnet sur un réseau public et son mot de passe est intercepté. | C | Chiffrement des communications | SSH |
-| Un utilisateur accède à un site bancaire mais ignore s'il est réellement connecté à sa banque. | Authenticité (+ C/I indirectement) | Certificats numériques | TLS / Certificats X.509 |
-| Un logiciel téléchargé a été modifié par un attaquant avant sa distribution. | I | Signature numérique | Cryptographie |
-| Une attaque rend un site Web inaccessible pendant plusieurs heures. | D | Filtrage réseau et contrôle du trafic | pare-feu (pfSense), analyse des vulnérabilités (Nessus, nmap) |
-| Un rançongiciel chiffre tous les fichiers d'une entreprise. | I + D | Sauvegardes et restauration | Sauvegardes |
+| Un administrateur de la clinique utilise Telnet sur un réseau public et son mot de passe est intercepté. | C | Chiffrement des communications, par exemple utilisation de SSH |
+| Une hygiéniste dentaire accède au portail web de son ordre professionnel mais ignore si elle est réellement connectée au bon site. | Authentification (+ C/I indirectement) | Utilisation de certificats X.509 avec HTTPS(TLS) |
+| Un logiciel téléchargé par un dentiste a été modifié par un attaquant avant sa distribution. | I | Condensés, signatures numériques |
+| Une attaque rend le portail web de la clinique inaccessible pendant plusieurs heures. | D | Analyse des vulnérabilités (Nessus, nmap, etc), pare-feu |
+| Un rançongiciel chiffre tous les fichiers de radiographies des patients. | D + I | Sauvegardes et restauration, plan de reprise après sinistre solide |
