@@ -5,4 +5,4 @@ parent: SSH
 nav_order: 6
 ---
 
-{% include shared/notes/ssh/generation-clés-ssh.md %}
+{% include shared/notes/ssh/generation-cles-ssh.md %}
