@@ -2,7 +2,7 @@
 layout: default
 title: SSH
 nav_order: 3
-published: true
+published: false
 ---
 
 {% include shared/notes/ssh/ssh.md %}
