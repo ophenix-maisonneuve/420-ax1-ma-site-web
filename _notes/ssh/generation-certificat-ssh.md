@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Annexe 1: Génération d'un certificat SSH'
+title: 'Annexe 2: Génération d'un certificat SSH'
 parent: SSH
 nav_order: 7
 ---
